@@ -3,14 +3,14 @@ var teamMember = [
     name: "Jai Sadana",
     image:
       "https://media-exp1.licdn.com/dms/image/C4D03AQFnZ-9ZxP3TyQ/profile-displayphoto-shrink_400_400/0/1649264186230?e=1659571200&v=beta&t=ktEImyS48ZYkoBYgEBbf1XynyGi_YwS9rG3-onpb33s",
-    github: "https://github.com/",
+    github: "https://github.com/jaisadana1999",
     linkedin: "https://www.linkedin.com/in/jaisadana/",
   },
   {
     name: "Garvitraj Pandey",
     image:
       "https://media-exp1.licdn.com/dms/image/C5603AQGXaJoaoXlVOA/profile-displayphoto-shrink_400_400/0/1629097609268?e=1659571200&v=beta&t=3eRI5S8uSwiQze-5jHnoSK5hZoenwsZ8xqNYK5W6IqI",
-    github: "https://github.com/Nitesh-thapliyal",
+    github: "https://github.com/garvitraj",
     linkedin: "https://www.linkedin.com/in/garvitraj-pandey/",
   },
   {
