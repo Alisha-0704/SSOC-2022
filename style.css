@@ -8158,6 +8158,14 @@ h4.widget-title {
     transform-style: preserve-3d;
 }
 
+
+.sponsors .contri_box{
+    width: fit-content;
+    align-items: left !important;
+    justify-items: left !important;
+    justify-content: left !important;
+}
+
 .contri-card {
     position: relative;
     -webkit-transform-style: preserve-3d;

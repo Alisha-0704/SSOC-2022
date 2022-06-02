@@ -50,7 +50,8 @@ var teamMember = [
   },
   {
     name: "Alisha Kushwaha",
-    image: "https://github.com/rhvsingh.png",
+    image:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQHt2MeKrTGR6g/profile-displayphoto-shrink_400_400/0/1648076169537?e=1659571200&v=beta&t=m216aLAtgWkzgSo9xM4a3XZx6LmWYuyN_97_7Abo1_4",
     github: "https://github.com/Alisha-0704",
     linkedin: "https://www.linkedin.com/in/alisha-kushwaha-776041211",
   },
@@ -60,6 +61,34 @@ var teamMember = [
       "https://media-exp1.licdn.com/dms/image/C4E03AQEMPRuM3mIJCA/profile-displayphoto-shrink_400_400/0/1643517790894?e=1659571200&v=beta&t=K-47wguO5gDdlj675zNBtcPwviKMUMf1AiVuviJQ93Q",
     github: "https://github.com/GovindSingh9447",
     linkedin: "https://www.linkedin.com/in/govind-singh9447",
+  },
+  {
+    name: "Jaideep Singh",
+    image:
+      "https://media-exp1.licdn.com/dms/image/D5635AQEVUufSnhIL8w/profile-framedphoto-shrink_400_400/0/1631099022741?e=1654750800&v=beta&t=QOPG9kfyUPMACr-k0zPY9R-gZ2cNdU1B5pGQYBN0iFY",
+    github: "https://github.com/Jaideep25-tech",
+    linkedin: "https://www.linkedin.com/in/jaideep-singh-26a226208/",
+  },
+  {
+    name: "Shreya Mishra",
+    image:
+      "https://media-exp1.licdn.com/dms/image/C4E03AQH9e5ak7mrxKg/profile-displayphoto-shrink_400_400/0/1630757515490?e=1659571200&v=beta&t=2egpQtwroTqCVpWrKW7JeCGKIRQrDJ6SapbeyMzcDYQ",
+    github: "https://github.com/shreya40",
+    linkedin: "https://www.linkedin.com/in/shreya-mishra-40/",
+  },
+  {
+    name: "Bobby Kashyap",
+    image:
+      "https://media-exp1.licdn.com/dms/image/C4E03AQE_f3Fv4E0LvA/profile-displayphoto-shrink_400_400/0/1607568143527?e=1659571200&v=beta&t=q5H6ZaNAq7JAvcPXXy_jO6lsobVDe0FMh7PrXpL__NE",
+    github: "https://github.com/kashyap1905",
+    linkedin: "https://www.linkedin.com/in/bobby-kumar-0a11761b9/",
+  },
+  {
+    name: "SHORYA SHOKANDA",
+    image:
+      "https://media-exp1.licdn.com/dms/image/D4D35AQEnGzhSf_rrcw/profile-framedphoto-shrink_400_400/0/1651144445283?e=1654750800&v=beta&t=RmlZayRexx-RrugeoMjjtulDOZPL3nkoavxAfmsCtlA",
+    github: "https://github.com/kashyap1905",
+    linkedin: "https://www.linkedin.com/in/shoryashokanda/",
   },
 ];
 
@@ -99,6 +128,7 @@ var contriMember = [
 
 var contributors1 = document.querySelectorAll(".contributors")[0];
 var contributors2 = document.querySelectorAll(".contributors")[1];
+var contributors3 = document.querySelectorAll(".contributors")[2];
 
 for (let i = 0; i < teamMember.length; i++) {
   let divCreate = document.createElement("div");
@@ -119,44 +149,31 @@ for (let i = 0; i < teamMember.length; i++) {
 }
 
 let platinum = contriMember.filter(function (contriMember) {
-
-    return contriMember.level === "platinum";
-
+  return contriMember.level === "platinum";
 });
-
-var divCreate = document.createElement("div");
-divCreate.innerHTML = "<br> <br> <br> <h2>Platinum</h2>";
-contributors2.append(divCreate);
 
 
 
 for (let i = 0; i < platinum.length; i++) {
-    let divCreate = document.createElement("div");
-    divCreate.className = "contri_box";
-    divCreate.innerHTML =
-      '<div class="contri-card"> <a href="' +
-      platinum[i].github +
-      '"> <div class="contri-card-inner"><div class="contri-card-front"><img src="' +
-      platinum[i].image +
-      '" alt="' +
-      platinum[i].name +
-      '" /></div><div class="contri-card-back"><div><span style="color:black; text-shadow: 0 1px 5px blue;">' +
-      platinum[i].name +
-      "</span></a></div> ";
-    contributors2.append(divCreate);
-  }
-
-  var divCreate = document.createElement("div");
-  divCreate.innerHTML = "<br> <br> <br> <h2>Gold</h2>";
+  let divCreate = document.createElement("div");
+  divCreate.className = "contri_box";
+  divCreate.innerHTML =
+    '<div class="contri-card"> <a href="' +
+    platinum[i].github +
+    '"> <div class="contri-card-inner"><div class="contri-card-front"><img src="' +
+    platinum[i].image +
+    '" alt="' +
+    platinum[i].name +
+    '" /></div><div class="contri-card-back"><div><span style="color:black; text-shadow: 0 1px 5px blue;">' +
+    platinum[i].name +
+    "</span></a></div> ";
   contributors2.append(divCreate);
+}
+
 
 let gold = contriMember.filter(function (contriMember) {
-
-      return contriMember.level === "gold";
-
+  return contriMember.level === "gold";
 });
-
-
 
 for (let i = 0; i < gold.length; i++) {
   let divCreate = document.createElement("div");
@@ -171,5 +188,5 @@ for (let i = 0; i < gold.length; i++) {
     '" /></div><div class="contri-card-back"><div><span style="color:black; text-shadow: 0 1px 5px blue;">' +
     gold[i].name +
     "</span></a></div> ";
-  contributors2.append(divCreate);
+  contributors3.append(divCreate);
 }
