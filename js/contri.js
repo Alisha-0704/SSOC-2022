@@ -95,32 +95,31 @@ var teamMember = [
 var contriMember = [
   {
     name: "Devfolio",
-    image: "https://avatars.githubusercontent.com/u/38809367?s=280&v=4",
+    image: "./../images/sponsors/Devfolio_Logo.svg",
     github: "https://devfolio.co",
     level: "platinum",
   },
   {
     name: "Polygon",
-    image: "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png",
+    image: "./../images/sponsors/Polygon_Logo.svg",
     github: "https://www.polygon.com",
     level: "platinum",
   },
   {
     name: "Celo",
-    image:
-      "https://pbs.twimg.com/profile_images/1493309659599486986/5ETdHxeE_400x400.jpg",
+    image: "./../images/sponsors/Celo_Logo.svg",
     github: "https://celo.org",
     level: "gold",
   },
   {
     name: "File Coin",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/17/Filecoin.png",
+    image: "./../images/sponsors/Filecoin_Logo.svg",
     github: "http://www.filecoin.com",
     level: "gold",
   },
   {
     name: "Tezos",
-    image: "https://s2.coinmarketcap.com/static/img/coins/200x200/2011.png",
+    image: "./../images/sponsors/Tezos_Logo.svg",
     github: "https://tezos.com",
     level: "gold",
   },
@@ -152,24 +151,14 @@ let platinum = contriMember.filter(function (contriMember) {
   return contriMember.level === "platinum";
 });
 
-
-
 for (let i = 0; i < platinum.length; i++) {
   let divCreate = document.createElement("div");
   divCreate.className = "contri_box";
-  divCreate.innerHTML =
-    '<div class="contri-card"> <a href="' +
-    platinum[i].github +
-    '"> <div class="contri-card-inner"><div class="contri-card-front"><img src="' +
-    platinum[i].image +
-    '" alt="' +
-    platinum[i].name +
-    '" /></div><div class="contri-card-back"><div><span style="color:black; text-shadow: 0 1px 5px blue;">' +
-    platinum[i].name +
-    "</span></a></div> ";
+  divCreate.innerHTML = `<div  style=" background-color: #fffdc0; width: 250px; height: 200px; border-radius:5px; display: flex; align-items: center; justify-content: center">
+  <img src="${platinum[i].image}">
+   </div> `;
   contributors2.append(divCreate);
 }
-
 
 let gold = contriMember.filter(function (contriMember) {
   return contriMember.level === "gold";
@@ -178,15 +167,8 @@ let gold = contriMember.filter(function (contriMember) {
 for (let i = 0; i < gold.length; i++) {
   let divCreate = document.createElement("div");
   divCreate.className = "contri_box";
-  divCreate.innerHTML =
-    '<div class="contri-card"> <a href="' +
-    gold[i].github +
-    '"> <div class="contri-card-inner"><div class="contri-card-front"><img src="' +
-    gold[i].image +
-    '" alt="' +
-    gold[i].name +
-    '" /></div><div class="contri-card-back"><div><span style="color:black; text-shadow: 0 1px 5px blue;">' +
-    gold[i].name +
-    "</span></a></div> ";
+  divCreate.innerHTML = `<div  style=" background-color: #fffdc0; width: 250px; height: 200px; border-radius:5px; display: flex; align-items: center; justify-content: center">
+   <img src="${gold[i].image}">
+    </div> `;
   contributors3.append(divCreate);
 }
