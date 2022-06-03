@@ -154,7 +154,7 @@ let platinum = contriMember.filter(function (contriMember) {
 for (let i = 0; i < platinum.length; i++) {
   let divCreate = document.createElement("div");
   divCreate.className = "contri_box";
-  divCreate.innerHTML = `<div  style=" background-color: #fffdc0; width: 250px; height: 200px; border-radius:5px; display: flex; align-items: center; justify-content: center">
+  divCreate.innerHTML = `<div  style=" background-color: white; width: 250px; height: 200px; border-radius:5px; display: flex; align-items: center; justify-content: center">
   <img src="${platinum[i].image}">
    </div> `;
   contributors2.append(divCreate);
@@ -167,7 +167,7 @@ let gold = contriMember.filter(function (contriMember) {
 for (let i = 0; i < gold.length; i++) {
   let divCreate = document.createElement("div");
   divCreate.className = "contri_box";
-  divCreate.innerHTML = `<div  style=" background-color: #fffdc0; width: 250px; height: 200px; border-radius:5px; display: flex; align-items: center; justify-content: center">
+  divCreate.innerHTML = `<div  style=" background-color: white; width: 250px; height: 200px; border-radius:5px; display: flex; align-items: center; justify-content: center">
    <img src="${gold[i].image}">
     </div> `;
   contributors3.append(divCreate);
