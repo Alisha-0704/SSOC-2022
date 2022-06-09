@@ -746,6 +746,10 @@ header.fixed {
     color: #fbbd18;
 }
 
+.hero-left .hero-btns a button{
+   margin: 1ch;
+}
+
 .hero-left .hero-btns {
     width: 100%;
     clear: both;

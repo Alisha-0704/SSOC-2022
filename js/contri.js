@@ -65,7 +65,7 @@ var teamMember = [
   {
     name: "Jaideep Singh",
     image:
-      "https://media-exp1.licdn.com/dms/image/D5635AQEVUufSnhIL8w/profile-framedphoto-shrink_400_400/0/1631099022741?e=1654750800&v=beta&t=QOPG9kfyUPMACr-k0zPY9R-gZ2cNdU1B5pGQYBN0iFY",
+      "https://media-exp1.licdn.com/dms/image/D5635AQEVUufSnhIL8w/profile-framedphoto-shrink_400_400/0/1631099022741?e=1655406000&v=beta&t=rZpYQYNhtiBCad3PsUfYDjoQwAhluAWLykjdmp7x-no",
     github: "https://github.com/Jaideep25-tech",
     linkedin: "https://www.linkedin.com/in/jaideep-singh-26a226208/",
   },
@@ -86,7 +86,7 @@ var teamMember = [
   {
     name: "SHORYA SHOKANDA",
     image:
-      "https://media-exp1.licdn.com/dms/image/D4D35AQEnGzhSf_rrcw/profile-framedphoto-shrink_400_400/0/1651144445283?e=1654750800&v=beta&t=RmlZayRexx-RrugeoMjjtulDOZPL3nkoavxAfmsCtlA",
+      "https://media-exp1.licdn.com/dms/image/D4D35AQEnGzhSf_rrcw/profile-framedphoto-shrink_400_400/0/1651144445283?e=1655406000&v=beta&t=Rqh0fz-ybNEqsS7WBcUliq9ZcdfoHRSefnNlDwCVSVU",
     github: "https://github.com/kashyap1905",
     linkedin: "https://www.linkedin.com/in/shoryashokanda/",
   },
@@ -96,32 +96,38 @@ var contriMember = [
   {
     name: "Devfolio",
     image: "./../images/sponsors/Devfolio_Logo.svg",
-    github: "https://devfolio.co",
+    site: "https://devfolio.co",
     level: "platinum",
   },
   {
     name: "Polygon",
     image: "./../images/sponsors/Polygon_Logo.svg",
-    github: "https://www.polygon.com",
+    site: "https://polygon.technology/",
     level: "platinum",
   },
   {
     name: "Celo",
     image: "./../images/sponsors/Celo_Logo.svg",
-    github: "https://celo.org",
+    site: "https://celo.org",
     level: "gold",
   },
   {
     name: "File Coin",
     image: "./../images/sponsors/Filecoin_Logo.svg",
-    github: "http://www.filecoin.com",
+    site: "http://www.filecoin.com",
     level: "gold",
   },
   {
     name: "Tezos",
     image: "./../images/sponsors/Tezos_Logo.svg",
-    github: "https://tezos.com",
+    site: "https://tezos.com",
     level: "gold",
+  },
+  {
+    name: "Jetbrains",
+    image: "./../images/sponsors/Jetbrains_Logo.svg",
+    site: "https://jetbrains.com",
+    level: "platinum",
   },
 ];
 
@@ -154,9 +160,9 @@ let platinum = contriMember.filter(function (contriMember) {
 for (let i = 0; i < platinum.length; i++) {
   let divCreate = document.createElement("div");
   divCreate.className = "contri_box";
-  divCreate.innerHTML = `<div  style=" background-color: white; gap:5ch; width: 350px; height: 150px; border-radius:5px; display: flex; align-items: center; justify-content: center">
+  divCreate.innerHTML = `<a target="_blank" href="${platinum[i].site}"><div  style=" background-color: white; gap:5ch; width: 350px; height: 150px; border-radius:5px; display: flex; align-items: center; justify-content: center">
   <img src="${platinum[i].image}">
-   </div> `;
+   </div> </a>`;
   contributors2.append(divCreate);
 }
 
@@ -167,8 +173,8 @@ let gold = contriMember.filter(function (contriMember) {
 for (let i = 0; i < gold.length; i++) {
   let divCreate = document.createElement("div");
   divCreate.className = "contri_box";
-  divCreate.innerHTML = `<div  style=" background-color: white; gap:5ch; width: 350px; height: 150px; border-radius:5px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center">
+  divCreate.innerHTML = `<a target="_blank" href="${gold[i].site}"> <div  style=" background-color: white; gap:5ch; width: 350px; height: 150px; border-radius:5px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center">
    <img src="${gold[i].image}">
-    </div> `;
+    </div> </a>`;
   contributors3.append(divCreate);
 }
