@@ -20,11 +20,11 @@ var teamMember = [
     linkedin: "https://www.linkedin.com/in/8bitsouvik/",
   },
   {
-    name: "Jayanta Pandit",
+    name: "Alisha Kushwaha",
     image:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQG5ER2q7Lsv1A/profile-displayphoto-shrink_400_400/0/1650656994770?e=1659571200&v=beta&t=jNsbRFoLOD5iOfiPuqAJMohMVIogJAbKaUFzf_Ns-aI",
-    github: "https://github.com/jay-io",
-    linkedin: "https://www.linkedin.com/in/panditjay",
+      "https://media-exp1.licdn.com/dms/image/C4D03AQHt2MeKrTGR6g/profile-displayphoto-shrink_400_400/0/1648076169537?e=1659571200&v=beta&t=m216aLAtgWkzgSo9xM4a3XZx6LmWYuyN_97_7Abo1_4",
+    github: "https://github.com/Alisha-0704",
+    linkedin: "https://www.linkedin.com/in/alisha-kushwaha-776041211",
   },
   {
     name: "Ambuj Srivastava",
@@ -49,11 +49,11 @@ var teamMember = [
     linkedin: "https://www.linkedin.com/in/atul-chowdhury-3989a3229/",
   },
   {
-    name: "Alisha Kushwaha",
+    name: "Jayanta Pandit",
     image:
-      "https://media-exp1.licdn.com/dms/image/C4D03AQHt2MeKrTGR6g/profile-displayphoto-shrink_400_400/0/1648076169537?e=1659571200&v=beta&t=m216aLAtgWkzgSo9xM4a3XZx6LmWYuyN_97_7Abo1_4",
-    github: "https://github.com/Alisha-0704",
-    linkedin: "https://www.linkedin.com/in/alisha-kushwaha-776041211",
+      "https://media-exp1.licdn.com/dms/image/C4E03AQG5ER2q7Lsv1A/profile-displayphoto-shrink_400_400/0/1650656994770?e=1659571200&v=beta&t=jNsbRFoLOD5iOfiPuqAJMohMVIogJAbKaUFzf_Ns-aI",
+    github: "https://github.com/jay-io",
+    linkedin: "https://www.linkedin.com/in/panditjay",
   },
   {
     name: "Govind Singh",
