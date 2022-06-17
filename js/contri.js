@@ -37,7 +37,7 @@ var teamMember = [
     name: "Pritam Nandi",
     image:
       "https://media-exp1.licdn.com/dms/image/C4D03AQFAgVgdU3QVtQ/profile-displayphoto-shrink_400_400/0/1652782107425?e=1659571200&v=beta&t=KNcfoEM6HSOsdixV_fOrOnbhV2osCuw1WXLu5vhonBw",
-    github: "https://github.com/kamleshjoshi8102",
+    github: "https://github.com/pritam1923",
     twitter: "https://twitter.com/spyd3r17",
     linkedin: "https://www.linkedin.com/in/pritamnandi/",
   },
@@ -65,7 +65,7 @@ var teamMember = [
   {
     name: "Jaideep Singh",
     image:
-      "https://media-exp1.licdn.com/dms/image/D5635AQEVUufSnhIL8w/profile-framedphoto-shrink_400_400/0/1631099022741?e=1655406000&v=beta&t=rZpYQYNhtiBCad3PsUfYDjoQwAhluAWLykjdmp7x-no",
+      "https://media-exp1.licdn.com/dms/image/D5635AQEVUufSnhIL8w/profile-framedphoto-shrink_400_400/0/1631099022741?e=1656072000&v=beta&t=5x7my8rR-fo1igib5LNU6_pYciLaVCTeaIk_KYAXbLI",
     github: "https://github.com/Jaideep25-tech",
     linkedin: "https://www.linkedin.com/in/jaideep-singh-26a226208/",
   },
@@ -86,7 +86,7 @@ var teamMember = [
   {
     name: "SHORYA SHOKANDA",
     image:
-      "https://media-exp1.licdn.com/dms/image/D4D35AQEnGzhSf_rrcw/profile-framedphoto-shrink_400_400/0/1651144445283?e=1655406000&v=beta&t=Rqh0fz-ybNEqsS7WBcUliq9ZcdfoHRSefnNlDwCVSVU",
+      "https://media-exp1.licdn.com/dms/image/D4D35AQEnGzhSf_rrcw/profile-framedphoto-shrink_400_400/0/1651144445283?e=1656072000&v=beta&t=adGirhbLgsMlTZzShiQEMPJOt2iT0wwgtHp63QGetUI",
     github: "https://github.com/kashyap1905",
     linkedin: "https://www.linkedin.com/in/shoryashokanda/",
   },
@@ -106,28 +106,16 @@ var contriMember = [
     level: "platinum",
   },
   {
-    name: "Celo",
-    image: "./../images/sponsors/Celo_Logo.svg",
-    site: "https://celo.org",
-    level: "gold",
-  },
-  {
     name: "File Coin",
     image: "./../images/sponsors/Filecoin_Logo.svg",
     site: "http://www.filecoin.com",
     level: "gold",
   },
   {
-    name: "Tezos",
-    image: "./../images/sponsors/Tezos_Logo.svg",
-    site: "https://tezos.com",
-    level: "gold",
-  },
-  {
     name: "Jetbrains",
     image: "./../images/sponsors/Jetbrains_Logo.svg",
     site: "https://jetbrains.com",
-    level: "platinum",
+    level: "gold",
   },
 ];
 
