@@ -65,7 +65,7 @@ var teamMember = [
   {
     name: "Jaideep Singh",
     image:
-      "https://media-exp1.licdn.com/dms/image/D5635AQEVUufSnhIL8w/profile-framedphoto-shrink_400_400/0/1631099022741?e=1656072000&v=beta&t=5x7my8rR-fo1igib5LNU6_pYciLaVCTeaIk_KYAXbLI",
+      "https://i.ibb.co/MfRsZN6/image.png",
     github: "https://github.com/Jaideep25-tech",
     linkedin: "https://www.linkedin.com/in/jaideep-singh-26a226208/",
   },
@@ -86,7 +86,7 @@ var teamMember = [
   {
     name: "SHORYA SHOKANDA",
     image:
-      "https://media-exp1.licdn.com/dms/image/D4D35AQEnGzhSf_rrcw/profile-framedphoto-shrink_400_400/0/1651144445283?e=1656072000&v=beta&t=adGirhbLgsMlTZzShiQEMPJOt2iT0wwgtHp63QGetUI",
+      "https://i.ibb.co/fD41K1V/image.png",
     github: "https://github.com/kashyap1905",
     linkedin: "https://www.linkedin.com/in/shoryashokanda/",
   },
