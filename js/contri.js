@@ -117,6 +117,12 @@ var contriMember = [
     site: "https://jetbrains.com",
     level: "gold",
   },
+    {
+    name: "DigitalOcean",
+    image: "./../images/sponsors/Digitalocean_Logo.svg",
+    site: "https://digitalocean.com",
+    level: "gold",
+  },
 ];
 
 var contributors1 = document.querySelectorAll(".contributors")[0];
